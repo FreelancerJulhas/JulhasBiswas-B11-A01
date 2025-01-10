@@ -1,0 +1,225 @@
+/* ============ Common style start ============ */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: "Fira Sans", serif;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
+body {
+    background-color: #f5f5f5;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+section {
+    margin-bottom: 80px;
+}
+/* ============ Common style end ============ */
+/* ============ Shared style Start ============ */
+.black1 {
+    color: #0E0E0E;
+}
+.btn {
+    border: none;
+    border-radius: 8px;
+    padding: 17px 34px;
+    background: #006A50;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: left;
+    transition: 0.3s;
+}
+.btn:hover {
+    border: none;
+    border-radius: 8px;
+    padding: 17px 34px;
+    background: White;
+    color: #006A50;
+}
+.section-title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    margin-bottom: 24px;
+}
+.description {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+/* ============ Shared style end ============ */
+/* ============ Header start ============ */
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 31px 0px;
+}
+.logo-text a {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.4px;
+    text-align: left;
+}
+.sign-in a {
+    color: #006A50;
+    border: 1px solid #006A50;
+    border-radius: 8px;
+    padding: 15px 30px;
+    transition: 0.3s;
+}
+.sign-in a:hover {
+    background-color: #006A50;
+    color: White;
+}
+/* ============  Header End ============ */
+/* ============ Hero Banner Section Start ============ */
+#hero-banner {
+    margin-top: 20px;
+}
+.hero-container {
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 60px;
+    gap: 64px;
+}
+.hero-text {
+    width: 622px;
+}
+.sub-title {
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.title {
+    max-width: 615px;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67px;
+    text-align: left;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+.hero-img img {
+    width: 474.03px;
+    height: 400px;
+}
+/* ============ Hero Banner Section End ============ */
+/* ============ Development Pillars Section Start ============ */
+.pillars-container,
+.vision-container {
+    display: flex;
+    gap: 24px;
+}
+#pillars h2.section-title {
+    margin-bottom: 32px;
+}
+.pillars-item {
+    width: 302px;
+    padding: 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+.pillar-img,
+.vision-img {
+    width: 62px;
+    height: 62px;
+}
+.pillars-title,
+.vision-title {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+/* ============ Development Pillars Section End ============ */
+/* ============ Vision Section start ============ */
+.vision-item {
+    width: 410.67px;
+    padding: 32px;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.vision-item-3 {
+    width: 410.67px;
+    padding: 24px;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.vision-item-3>p {
+    width: 362.67px;
+}
+.vi-2 {
+    background: rgb(198, 228, 214);
+}
+.vi-3 {
+    background: rgb(247, 235, 207);
+}
+#vision>.description {
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+.vision-btn {
+    margin-top: 20px;
+}
+.btn1,
+.btn2,
+.btn3 {
+    width: 122px;
+    height: 41px;
+    border: none;
+    border-radius: 8px;
+    padding: 11px 20px 11px 20px;
+}
+.btn1 {
+    background: rgb(84, 144, 245);
+}
+.btn1:hover {
+    background-color: transparent;
+    color: rgb(84, 144, 245);
+    border: 1px solid rgb(84, 144, 245);
+}
+.btn2 {
+    background-color: transparent;
+    background-color: rgb(9, 161, 92);
+}
+.btn2:hover {
+    background-color: transparent;
+    color: rgb(9, 161, 92);
+    border: 1px solid rgb(9, 161, 92);
+}
+.btn3 {
+    background: rgb(255, 194, 57);
+}
+.btn3:hover {
+    background-color: transparent;
+    color: rgb(255, 194, 57);
+    border: 1px solid rgb(255, 194, 57);
+}
+/* ============ Vision Section End ============ */
