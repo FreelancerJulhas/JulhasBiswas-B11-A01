@@ -31,37 +31,27 @@ section {
 }
 
 .btn {
-    border:1px solid #006A50;
+    border: 1px solid #006A50;
     border-radius: 8px;
     padding: 17px 34px;
     background: #006A50;
-    color: rgb(255, 255, 255);
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 22px;
-    text-align: left;
+    cursor: pointer;
     transition: 0.3s;
 }
 
 .btn:hover {
     background: White;
-    color: #006A50;
+
 }
-.btn-news {
-    border:1px solid #006A50;
-    border-radius: 8px;
-    padding: 13px 26px;
-    background: #006A50;
+
+.btn a {
     color: rgb(255, 255, 255);
     font-size: 18px;
     font-weight: 600;
     line-height: 22px;
-    text-align: left;
-    transition: 0.3s;
 }
 
-.btn-news:hover {
-    background: White;
+.btn:hover a {
     color: #006A50;
 }
 
@@ -80,6 +70,10 @@ section {
     font-weight: 400;
     line-height: 24px;
     text-align: left;
+}
+
+.text-center {
+    text-align: center;
 }
 
 /* .tbn{
@@ -239,6 +233,18 @@ section {
     margin-top: 20px;
 }
 
+.btn1 a,
+.btn2 a,
+.btn3 a {
+    color: white;
+}
+
+.btn1:hover a,
+.btn2:hover a,
+.btn3:hover a {
+    color: Black;
+}
+
 .btn1,
 .btn2,
 .btn3 {
@@ -247,7 +253,10 @@ section {
     border: none;
     border-radius: 8px;
     padding: 11px 20px 11px 20px;
+    cursor: pointer;
+    transition: 0.3s;
 }
+
 
 .btn1 {
     background: rgb(84, 144, 245);
@@ -381,48 +390,165 @@ th {
 
 /* ============ Opinion Section End ============ */
 /* ============ News Section Start ============ */
-.news-container{
+.news-container {
     background-color: white;
     border-radius: 24px;
-     display: flex;
+    display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    gap:32px;
+    gap: 32px;
     padding: 48px;
-    
+
 }
-.news-img{
+
+.news-img {
     width: 408px;
     height: 306px;
     border-radius: 24px;
 }
-.news-title{
-color: rgba(14, 14, 14, 0.8);
-font-size: 32px;
-font-weight: 700;
-line-height: 38px;
+
+.news-title {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
 }
-.news-description{
+
+.news-description {
     margin-bottom: 32px;
 }
-.news-logo{
+
+.news-logo {
     width: 134px;
     height: 40px;
     margin: 12px 0;
 }
-.news-des{
+
+.news-des {
     margin-top: 12px;
     margin-bottom: 32px;
 }
 
-.news-container-2{
+.news-container-2 {
     display: flex;
     flex-direction: row-reverse;
-    gap:32px;
+    gap: 32px;
     padding: 48px;
     background-color: white;
     border-radius: 24px;
     margin: 24px 0;
 }
 
+.btn-news {
+    border: 1px solid #006A50;
+    border-radius: 8px;
+    padding: 13px 26px;
+    background: #006A50;
+    cursor: pointer;
+}
+
+.btn-news:hover {
+    background: White;
+
+}
+
+.btn-news a {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    transition: 0.3s;
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+
+.btn-news:hover a {
+
+    color: #006A50;
+}
+
 /* ============ News Section End ============ */
+/* ============ Donate Section Start ============ */
+.donate-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 88px;
+
+}
+
+.amount {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+
+}
+
+.tk {
+
+    padding: 40px;
+    background-color: white;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+
+}
+
+.tk:hover {
+    background: rgb(198, 228, 214);
+}
+
+.tk-hover {
+    background: rgb(198, 228, 214);
+}
+
+/* .tk-hover:hover {
+    background: white;
+} */
+
+.tk h4 {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.donate-description {
+    margin: 32px 0;
+}
+
+.input-tk {
+    margin: 32px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-tk input {
+    width: 900px;
+    margin-top: 32px;
+    padding: 20px 40px;
+    border: none;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+
+}
+
+input::placeholder {
+    text-align: center;
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+
+
+
+}
+
+
+/* ============ Donate Section End ============ */
