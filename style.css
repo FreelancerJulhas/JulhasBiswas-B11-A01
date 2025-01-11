@@ -607,11 +607,53 @@ input::placeholder {
 .subscribe:hover {
     background-color: black;
     color: white;
-  
+
 
 }
-.newsletter-description{
+
+.newsletter-description {
     margin: 16px 0 24px 0;
 }
 
 /* ============ Newsletter Section End ============ */
+/* ============ Footer Start ============ */
+footer{
+    margin-top: 80px;
+}
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    
+
+}
+.footer-title{
+color: rgb(14, 14, 14);
+
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+}
+hr{
+    width:1122px ;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    margin-top: 31.5px;
+    margin-bottom: 32.5px;
+
+}
+.social-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+.social-icon img {
+    width: 24px;
+    height: 24px;
+}
+
+/* ============ Footer End ============ */
