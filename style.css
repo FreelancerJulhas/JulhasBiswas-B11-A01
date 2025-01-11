@@ -5,31 +5,25 @@
     outline: 0;
     font-family: "Fira Sans", serif;
 }
-
 a {
     text-decoration: none;
 }
-
 li {
     list-style-type: none;
 }
-
 body {
     background-color: #f5f5f5;
     max-width: 1280px;
     margin: 0 auto;
 }
-
 section {
     margin-bottom: 80px;
 }
-
 /* ============ Common style end ============ */
 /* ============ Shared style Start ============ */
 .black1 {
     color: #0E0E0E;
 }
-
 .btn {
     border: 1px solid #006A50;
     border-radius: 8px;
@@ -38,31 +32,24 @@ section {
     cursor: pointer;
     transition: 0.3s;
 }
-
 .btn:hover {
     background: White;
-
 }
-
 .btn a {
     color: rgb(255, 255, 255);
     font-size: 18px;
     font-weight: 600;
     line-height: 22px;
 }
-
 .btn:hover a {
     color: #006A50;
 }
-
-
 .section-title {
     font-size: 40px;
     font-weight: 700;
     line-height: 48px;
     text-align: left;
 }
-
 .description {
     color: rgba(14, 14, 14, 0.7);
     font-size: 16px;
@@ -70,15 +57,12 @@ section {
     line-height: 24px;
     text-align: left;
 }
-
 .text-center {
     text-align: center;
 }
-
 /* .tbn{
     border-top: none;
 } */
-
 /* ============ Shared style end ============ */
 /* ============ Header start ============ */
 #header {
@@ -87,14 +71,12 @@ section {
     align-items: center;
     padding: 31px 0px;
 }
-
 .logo-text a {
     font-size: 32px;
     font-weight: 700;
     line-height: 38.4px;
     text-align: left;
 }
-
 .sign-in a {
     color: #006A50;
     border: 1px solid #006A50;
@@ -102,18 +84,15 @@ section {
     padding: 15px 30px;
     transition: 0.3s;
 }
-
 .sign-in a:hover {
     background-color: #006A50;
     color: White;
 }
-
 /* ============  Header End ============ */
 /* ============ Hero Banner Section Start ============ */
 #hero-banner {
     margin-top: 20px;
 }
-
 .hero-container {
     background-color: #C6E4D6;
     border-radius: 24px;
@@ -123,11 +102,9 @@ section {
     padding: 80px 60px;
     gap: 64px;
 }
-
 .hero-text {
     width: 622px;
 }
-
 .sub-title {
     color: rgba(14, 14, 14, 0.5);
     font-size: 24px;
@@ -136,7 +113,6 @@ section {
     letter-spacing: 0%;
     text-align: left;
 }
-
 .title {
     max-width: 615px;
     font-size: 56px;
@@ -146,12 +122,10 @@ section {
     margin-top: 16px;
     margin-bottom: 24px;
 }
-
 .hero-img img {
     width: 474.03px;
     height: 400px;
 }
-
 /* ============ Hero Banner Section End ============ */
 /* ============ Development Pillars Section Start ============ */
 .pillars-container,
@@ -159,11 +133,9 @@ section {
     display: flex;
     gap: 24px;
 }
-
 #pillars h2.section-title {
     margin-bottom: 32px;
 }
-
 .pillars-item {
     width: 302px;
     padding: 24px;
@@ -171,13 +143,11 @@ section {
     border-radius: 16px;
     background: rgb(255, 255, 255);
 }
-
 .pillar-img,
 .vision-img {
     width: 62px;
     height: 62px;
 }
-
 .pillars-title,
 .vision-title {
     color: rgba(14, 14, 14, 0.8);
@@ -188,7 +158,6 @@ section {
     margin-top: 24px;
     margin-bottom: 12px;
 }
-
 /* ============ Development Pillars Section End ============ */
 /* ============ Vision Section start ============ */
 .vision-item {
@@ -200,7 +169,6 @@ section {
     flex-direction: column;
     justify-content: space-between;
 }
-
 .vision-item-3 {
     width: 410.67px;
     padding: 24px;
@@ -210,40 +178,32 @@ section {
     flex-direction: column;
     justify-content: space-between;
 }
-
 .vision-item-3>p {
     width: 362.67px;
 }
-
 .vi-2 {
     background: rgb(198, 228, 214);
 }
-
 .vi-3 {
     background: rgb(247, 235, 207);
 }
-
 #vision>.description {
     margin-top: 24px;
     margin-bottom: 32px;
 }
-
 .vision-btn {
     margin-top: 20px;
 }
-
 .btn1 a,
 .btn2 a,
 .btn3 a {
     color: white;
 }
-
 .btn1:hover a,
 .btn2:hover a,
 .btn3:hover a {
     color: Black;
 }
-
 .btn1,
 .btn2,
 .btn3 {
@@ -255,39 +215,31 @@ section {
     cursor: pointer;
     transition: 0.3s;
 }
-
-
 .btn1 {
     background: rgb(84, 144, 245);
 }
-
 .btn1:hover {
     background-color: transparent;
     color: rgb(84, 144, 245);
     border: 1px solid rgb(84, 144, 245);
 }
-
 .btn2 {
     background-color: transparent;
     background-color: rgb(9, 161, 92);
 }
-
 .btn2:hover {
     background-color: transparent;
     color: rgb(9, 161, 92);
     border: 1px solid rgb(9, 161, 92);
 }
-
 .btn3 {
     background: rgb(255, 194, 57);
 }
-
 .btn3:hover {
     background-color: transparent;
     color: rgb(255, 194, 57);
     border: 1px solid rgb(255, 194, 57);
 }
-
 /* quote block start  */
 .quote {
     background: rgb(255, 255, 255) url(assets/quote-bg.png);
@@ -298,10 +250,7 @@ section {
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     margin-top: 32px;
-
-
 }
-
 .quote-description {
     color: rgba(14, 14, 14, 0.8);
     font-size: 16px;
@@ -309,7 +258,6 @@ section {
     line-height: 24px;
     text-align: left;
 }
-
 .quote-title {
     color: rgba(14, 14, 14, 0.8);
     font-size: 20px;
@@ -319,10 +267,7 @@ section {
     margin-top: 12px;
     margin-bottom: 4px;
 }
-
 /* quote block end  */
-
-
 /* ============ Vision Section End ============ */
 /* ============ Opinion Section Start ============ */
 form {
@@ -331,62 +276,47 @@ form {
     border-radius: 16px;
     background-color: white;
 }
-
 table {
     width: 1216px;
     margin: 0 auto;
     border-collapse: collapse;
-
 }
-
 .heading {
     border: 1px solid rgba(14, 14, 14, 0.15);
 }
-
 th {
     padding: 24px;
     text-align: left;
-
 }
-
 /* td{
     padding: 24px;
     border: 1px solid rgba(14, 14, 14, 0.15);
     text-align: left;
 } */
-
 .td1 {
     padding: 24px;
     border: 1px solid rgba(14, 14, 14, 0.15);
-
 }
-
 .td2 {
     padding: 24px;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-left: none;
     border-top: none;
-
 }
-
 th {
-
     background: rgb(198, 228, 214);
 }
-
 .select {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .select select {
     padding: 10px 14px;
     border: 1px solid rgb(14, 14, 14);
     border-radius: 4px;
     background: rgba(9, 161, 92, 0.15);
 }
-
 /* ============ Opinion Section End ============ */
 /* ============ News Section Start ============ */
 .news-container {
@@ -397,37 +327,30 @@ th {
     align-items: flex-start;
     gap: 32px;
     padding: 48px;
-
 }
-
 .news-img {
     width: 408px;
     height: 306px;
     border-radius: 24px;
 }
-
 .news-title {
     color: rgba(14, 14, 14, 0.8);
     font-size: 32px;
     font-weight: 700;
     line-height: 38px;
 }
-
 .news-description {
     margin-bottom: 32px;
 }
-
 .news-logo {
     width: 134px;
     height: 40px;
     margin: 12px 0;
 }
-
 .news-des {
     margin-top: 12px;
     margin-bottom: 32px;
 }
-
 .news-container-2 {
     display: flex;
     flex-direction: row-reverse;
@@ -437,7 +360,6 @@ th {
     border-radius: 24px;
     margin: 24px 0;
 }
-
 .btn-news {
     border: 1px solid #006A50;
     border-radius: 8px;
@@ -445,12 +367,9 @@ th {
     background: #006A50;
     cursor: pointer;
 }
-
 .btn-news:hover {
     background: White;
-
 }
-
 .btn-news a {
     font-size: 18px;
     font-weight: 600;
@@ -459,12 +378,9 @@ th {
     color: rgb(255, 255, 255);
     transition: 0.3s;
 }
-
 .btn-news:hover a {
-
     color: #006A50;
 }
-
 /* ============ News Section End ============ */
 /* ============ Donate Section Start ============ */
 .donate-container {
@@ -473,20 +389,14 @@ th {
     justify-content: center;
     align-items: center;
     padding: 0 88px;
-
 }
-
 .amount {
-
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 24px;
-
 }
-
 .tk {
-
     padding: 40px;
     background-color: white;
     border: 1px solid rgba(14, 14, 14, 0.15);
@@ -495,83 +405,62 @@ th {
     justify-content: center;
     align-items: center;
     cursor: pointer;
-
-
 }
-
 .tk:hover {
     background: rgb(198, 228, 214);
 }
-
 .tk-hover {
     background: rgb(198, 228, 214);
 }
-
 /* .tk-hover:hover {
     background: white;
 } */
-
 .tk h4 {
     color: rgba(14, 14, 14, 0.8);
     font-size: 40px;
     font-weight: 700;
     line-height: 48px;
 }
-
 .donate-description {
     margin: 32px 0;
 }
-
 .input-tk {
     margin: 32px 0;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .input-tk input {
     width: 900px;
     margin-top: 32px;
     padding: 20px 40px;
     border: none;
     border-bottom: 1px solid rgba(14, 14, 14, 0.15);
-
 }
-
 input::placeholder {
     text-align: center;
     color: rgba(14, 14, 14, 0.3);
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
-
-
-
 }
-
-
 /* ============ Donate Section End ============ */
 /* ============ Newsletter Section start ============ */
 #newsletter {
     border-radius: 24px;
     background: rgb(198, 228, 214);
 }
-
 .newsletterContainer {
     padding: 80px 265px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
-
 .email-submit {
     display: flex;
     margin-bottom: 24px;
-
 }
-
 .email {
     width: 600px;
     background-color: white;
@@ -579,17 +468,13 @@ input::placeholder {
     border: none;
     border-radius: 8px 0 0 8px;
     padding: 18px 40px;
-
 }
-
 .email-submit input::placeholder {
     color: rgba(14, 14, 14, 0.3);
     font-size: 16px;
     font-weight: 400;
     line-height: 19px;
-
 }
-
 .subscribe {
     width: 150px;
     border-radius: 0px 8px 8px 0px;
@@ -603,18 +488,13 @@ input::placeholder {
     cursor: pointer;
     transition: 0.3s;
 }
-
 .subscribe:hover {
     background-color: black;
     color: white;
-
-
 }
-
 .newsletter-description {
     margin: 16px 0 24px 0;
 }
-
 /* ============ Newsletter Section End ============ */
 /* ============ Footer Start ============ */
 footer{
@@ -626,12 +506,9 @@ footer{
     justify-content: center;
     align-items: center;
     margin-top: 50px;
-    
-
 }
 .footer-title{
 color: rgb(14, 14, 14);
-
 font-size: 32px;
 font-weight: 700;
 line-height: 38px;
@@ -641,7 +518,6 @@ hr{
     border: 1px solid rgba(14, 14, 14, 0.1);
     margin-top: 31.5px;
     margin-bottom: 32.5px;
-
 }
 .social-icon{
     display: flex;
@@ -655,5 +531,4 @@ hr{
     width: 24px;
     height: 24px;
 }
-
 /* ============ Footer End ============ */
